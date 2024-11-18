@@ -2,34 +2,50 @@ body {
   text-align: center;
   font-family: sans-serif;
   margin-top: 50px;
+  background: linear-gradient(to right, rgb(127, 250, 240), rgb(228, 99, 195));
 }
 
-#form {
-  width: 600px;
+.form {
+  max-width: 600px;
   height: 200px;
-  background-color: rgb(233, 243, 140);
+  background-color: rgb(244, 245, 233);
   display: block;
   margin: 0 auto;
   border-radius: 20px;
-
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 40px;
 }
 form {
   padding: 70px;
 }
-#poemInput {
+.poemInput {
   width: 350px;
   height: 40px;
-  border-radius: 5px;
-  border-style: none;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
   font-size: larger;
   padding-left: 10px;
+  margin-bottom: 5px;
 }
-#submitInput {
-  /* font-size: 20px; */
-  width: 70px;
+.submitInput {
+  background-color: rgb(210, 29, 226);
+  margin-left: 5px;
+  width: 85px;
   height: 40px;
-  border-radius: 5px;
+  border-radius: 15px;
   border-style: none;
   font-size: larger;
+}
+.generatingPlace {
+  max-width: 580px;
+  /* height: 50px; */
+  background-color: rgb(244, 245, 233);
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 40px;
+  line-height: 24px;
+  padding: 10px;
+  border-left: 3px solid rgb(210, 29, 226);
 }
