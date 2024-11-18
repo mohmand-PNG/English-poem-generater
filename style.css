@@ -1,3 +1,35 @@
 body {
-  background-color: aquamarine;
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+#form {
+  width: 600px;
+  height: 200px;
+  background-color: rgb(233, 243, 140);
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+form {
+  padding: 70px;
+}
+#poemInput {
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: larger;
+  padding-left: 10px;
+}
+#submitInput {
+  /* font-size: 20px; */
+  width: 70px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: larger;
 }
