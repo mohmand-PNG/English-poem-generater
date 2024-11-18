@@ -1,14 +1,25 @@
 body {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/697/original/pexels-poppythomashill-6535877.jpg?1731908883);
+  background-position: left;
+  background-size: cover;
   text-align: center;
   font-family: sans-serif;
   margin-top: 50px;
-  background: linear-gradient(to right, rgb(127, 250, 240), rgb(228, 99, 195));
+  /* background: linear-gradient(to right, rgb(127, 250, 240), rgb(228, 99, 195)); */
 }
-
+h1 {
+  color: rgb(113, 6, 122);
+  font-size: 45px;
+}
 .form {
   max-width: 600px;
   height: 200px;
-  background-color: rgb(244, 245, 233);
+  background: linear-gradient(
+    to top,
+    rgb(101, 15, 105),
+    rgb(243, 210, 235, 0.6)
+  );
+  /* background-color: rgb(244, 245, 233, 0.6); */
   display: block;
   margin: 0 auto;
   border-radius: 20px;
@@ -28,7 +39,7 @@ form {
   margin-bottom: 5px;
 }
 .submitInput {
-  background-color: rgb(210, 29, 226);
+  background-color: rgb(113, 6, 122);
   margin-left: 5px;
   width: 85px;
   height: 40px;
@@ -39,7 +50,9 @@ form {
 .generatingPlace {
   max-width: 580px;
   /* height: 50px; */
-  background-color: rgb(244, 245, 233);
+  /* background: linear-gradient(to top, rgb(65, 1, 68), rgb(243, 210, 235, 0.6)); */
+
+  background-color: rgba(243, 210, 235, 0.6);
   display: block;
   margin: 0 auto;
   border-radius: 20px;
@@ -48,4 +61,7 @@ form {
   line-height: 24px;
   padding: 10px;
   border-left: 3px solid rgb(210, 29, 226);
+}
+a {
+  /* color: rgb(113, 6, 122); */
 }
