@@ -2,9 +2,10 @@ body {
   background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/150/697/original/pexels-poppythomashill-6535877.jpg?1731908883);
   background-position: left;
   background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-family: sans-serif;
-  margin-top: 50px;
+  margin-top: 80px;
   /* background: linear-gradient(to right, rgb(127, 250, 240), rgb(228, 99, 195)); */
 }
 h1 {
@@ -13,7 +14,7 @@ h1 {
 }
 .form {
   max-width: 600px;
-  height: 200px;
+  height: 150px;
   background: linear-gradient(
     to top,
     rgb(101, 15, 105),
@@ -27,7 +28,7 @@ h1 {
   margin-bottom: 40px;
 }
 form {
-  padding: 70px;
+  padding: 50px;
 }
 .poemInput {
   width: 350px;
@@ -51,6 +52,7 @@ form {
   max-width: 580px;
   text-align: left;
   margin-left: 50px;
+  /* display: none; */
   /* height: 50px; */
   /* background: linear-gradient(to top, rgb(65, 1, 68), rgb(243, 210, 235, 0.6)); */
 
@@ -68,4 +70,20 @@ form {
 #generatingPlace {
   padding-left: 50px;
   margin: 0 auto;
+}
+.small {
+  display: flex;
+  justify-content: left;
+  padding-left: 25px;
+}
+.hidden {
+  display: none;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
 }

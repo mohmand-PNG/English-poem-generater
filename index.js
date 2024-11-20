@@ -8,11 +8,14 @@ function generatePoem(response) {
     delay: 50,
   });
 }
-
+// ⌛
 function hundleApi(event) {
   event.preventDefault();
   let form = document.querySelector("#formInput");
   let poemGeneratingPlace = document.querySelector("#generatingPlace");
+  let poemContainer = document.querySelector("#hidden");
+  poemContainer.classList.remove("hidden");
+  poemGeneratingPlace.innerHTML = `<div class="blink">⏳ Generating a poem about ${form.value}</div>`;
   let apiKey = `1b099ef35faf21o7cfb3ad6cete3a47b`;
   let prompt = `user instructions: Generate a poem about ${form.value}`;
   let context =

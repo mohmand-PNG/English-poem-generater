@@ -21,7 +21,6 @@
             class="poemInput"
             placeholder="enter a topic"
             required
-            autofocus
           />
           <input
             id="submitInput"
@@ -29,10 +28,11 @@
             type="submit"
             value="submit"
           />
+          <small class="small">i.e: Success, Flower, Friendship</small>
         </form>
       </div>
-      <div class="generatingPlace">
-        <p id="generatingPlace">the poem will generate here</p>
+      <div class="generatingPlace hidden" id="hidden">
+        <p id="generatingPlace"></p>
       </div>
     </main>
     <footer>
