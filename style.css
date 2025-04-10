@@ -87,3 +87,64 @@ form {
 .blink {
   animation: blink 1s step-start 0s infinite;
 }
+/* responsive design */
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  /* Adjusting the body for smaller screens */
+  body {
+    margin-top: 40px; /* Reduce top margin */
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* Heading adjustment for mobile */
+  h1 {
+    font-size: 32px; /* Smaller font size on mobile */
+    color: rgb(113, 6, 122);
+  }
+
+  /* Form styling adjustments */
+  .form {
+    width: 90%; /* Make form take up more space on small screens */
+    padding: 20px;
+    height: auto;
+    margin: 20px auto; /* Reduced margin */
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px; /* Lighter shadow */
+  }
+
+  form {
+    padding: 20px; /* Less padding for better mobile fit */
+  }
+
+  .poemInput {
+    width: 100%; /* Make input take full width */
+    margin-bottom: 15px; /* Add more space between inputs */
+    padding-left: 12px;
+    font-size: 18px; /* Adjust font size for better readability */
+  }
+
+  .submitInput {
+    width: 100%; /* Make submit button stretch to full width */
+    margin-left: 0;
+    font-size: 18px;
+  }
+
+  .generatingPlace {
+    max-width: 90%; /* Ensure it fits better on small screens */
+    padding: 15px;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px; /* Lighter shadow */
+  }
+
+  #generatingPlace {
+    padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+
+  /* Adjust small class alignment for mobile */
+  .small {
+    justify-content: center; /* Center content on small screens */
+    padding-left: 0;
+  }
+}
